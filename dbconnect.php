@@ -2,7 +2,7 @@
 
 $dsn = 'mysql:dbname=project;host=54.183.146.117'; 
 $user = 'DBPro'; 
-$password = 'Yanlulu850619'; 
+$password = '*************'; 
 
 try {
 	$db = new PDO($dsn, $user, $password);
