@@ -8,7 +8,7 @@ int main() {
    MYSQL_ROW row;
    char *server = "54.183.146.117";
    char *user = "DBPro";
-   char *password = "Yanlulu850619"; /* set me first */
+   char *password = "*************"; /* set me first */
    char *database = "project";
    conn = mysql_init(NULL);
    /* Connect to database */

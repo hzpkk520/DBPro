@@ -1,0 +1,7 @@
+udf:
+	gcc -fPIC -I /usr/include/mysql/ -shared -o sum_he.so SUM_HE.c libpaillier/paillier.c -lgmp
+	sudo cp sum_he.so /usr/lib/mysql/plugin/
+
+client: 
+	gcc -I /usr/local/include encrypt.c -L/usr/local/lib -lpaillier -lgmp
+
