@@ -34,4 +34,4 @@
 
 
 ##How to Run
-  To compile and run the program, you need to first make sure that you have the public and private key files under the same directory as your program's directory. Then type "make" to compile. And type "php dbconnect" to run the program. You could then follow the prompt to test sql queries.
+  To compile and run the program, you need to first make sure that you have the public and private key files under the same directory as your program's directory. Then type "make" to compile. And type "php dbconnect.php" to run the program. You could then follow the prompt to test sql queries.
