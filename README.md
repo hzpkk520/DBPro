@@ -31,9 +31,7 @@
   - SELECT SUM GROUP BY age
   - SELECT SUM WHERE (NOT id>103) OR age<= 28 GROUP BY age HAVING COUNT(*)>2
   - SELECT SUM GROUP BY age HAVING age>35 OR age<30
-    .
-    .
-    .
+
 
 ##How to Run
   To compile and run the program, you need to first make sure that you have the public and private key files under the same directory as your program's directory. Then type "make" to compile. And type "php dbconnect" to run the program. You could then follow the prompt to test sql queries.
